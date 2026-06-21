@@ -3,13 +3,18 @@ package com.example.smartfood.ui.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+
 import com.bumptech.glide.Glide;
 import com.example.smartfood.R;
 import com.example.smartfood.data.models.Recipe;

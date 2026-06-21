@@ -1,6 +1,7 @@
 package com.example.smartfood.data.repository;
 
 import android.util.Log;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
@@ -9,6 +10,7 @@ import com.example.smartfood.data.api.OSMApiService;
 import com.example.smartfood.data.models.OSMPlace;
 
 import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
