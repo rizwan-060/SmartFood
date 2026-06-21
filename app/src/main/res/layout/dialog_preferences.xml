@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Dietary Preferences"
+        android:textColor="@color/text_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Select your primary diet restriction."
+        android:textColor="@color/text_muted"
+        android:textSize="14sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/cgPopupPreferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:singleSelection="true" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnSavePreferences"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_primary_button"
+        android:text="Save Preference"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+</LinearLayout>

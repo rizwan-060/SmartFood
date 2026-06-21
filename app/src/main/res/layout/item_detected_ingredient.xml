@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_login_card"
+    android:elevation="2dp"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tomato"
+            android:textStyle="bold"
+            android:textColor="#111111"/>
+        <ImageView
+            android:id="@+id/ivCheck"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@android:drawable/checkbox_on_background"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp">
+        <ProgressBar
+            android:id="@+id/pbConfidence"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:progress="95"
+            android:progressDrawable="@drawable/bg_pill_green"/>
+        <TextView
+            android:id="@+id/tvConfidence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="95%"
+            android:textSize="12sp"
+            android:textColor="#666666"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Notification Settings"
+        android:textColor="@color/text_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchPush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Push Notifications\nGet alerts on your phone"
+        android:textColor="@color/text_dark" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Email Recipes\nWeekly curated recipe lists"
+        android:textColor="@color/text_dark" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchReminders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Meal Reminders\nDon't forget to eat!"
+        android:textColor="@color/text_dark" />
+
+    <Button
+        android:id="@+id/btnSaveNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_primary_button"
+        android:text="Save Settings"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+</LinearLayout>
