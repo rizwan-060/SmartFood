@@ -1,6 +1,6 @@
 package com.example.smartfood.data.api;
 
-import com.example.smartfood.data.models.NutritionResponse;
+import com.example.smartfood.data.models.NutritionResponse; // We will create this next
 
 import retrofit2.Call;
 import retrofit2.http.GET;

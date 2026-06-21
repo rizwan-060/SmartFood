@@ -2,4 +2,35 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="splash_gradient_start">#FF4E42</color>
+    <color name="splash_gradient_center">#FFA726</color>
+    <color name="splash_gradient_end">#3FA34D</color>
+    <color name="white_transparent">#33FFFFFF</color>
+
+    <color name="login_bg_start">#FFF7ED</color>
+    <color name="login_bg_end">#FFE826</color>
+    <color name="primary_red">#FF4E42</color>
+    <color name="primary_orange">#FFA726</color>
+    <color name="text_dark">#1F2937</color>
+    <color name="text_muted">#6B7280</color>
+    <color name="input_border">#E5E7EB</color>
+    <color name="input_bg">#F9FAFB</color>
+    <color name="blob_red">#1AFF4E42</color>
+    <color name="blob_green">#1A3FA34D</color>
+
+    <color name="green_light">#B8E986</color>
+    <color name="chip_inactive">#F3F4F6</color>
+
+
+    <color name="restaurant_grad_start">#11998E</color>
+    <color name="restaurant_grad_end">#38EF7D</color>
+
+
+    <color name="scanner_grad_start">#3FA34D</color>
+    <color name="scanner_grad_end">#B8E986</color>
+    <color name="camera_bg_start">#111827</color>
+    <color name="camera_bg_end">#1F2937</color>
+    <color name="pink_pepper">#FF6B9D</color>
+
+
 </resources>
