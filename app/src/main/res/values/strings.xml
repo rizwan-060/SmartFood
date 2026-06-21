@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">SmartFood</string>
+    <string name="app_name">Smart Food</string>
+
+    <style name="ProfileDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/input_border</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+    </style>
 </resources>
